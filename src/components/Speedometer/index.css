@@ -1,0 +1,52 @@
+.bg-container {
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.title {
+  font-size: 45px;
+  color: white;
+  font-style: italic;
+}
+.heading {
+  font-size: 30px;
+  color: white;
+}
+.image {
+  height: 40vh;
+  width: 40vw;
+  background-size: cover;
+}
+
+.para {
+  color: #cbd5e1;
+  font-size: 20px;
+}
+
+.acceleration-btn {
+  outline: none;
+  cursor: pointer;
+  color: white;
+  background-color: blue;
+  height: 30px;
+  width: 100px;
+  border: 0px;
+  border-radius: 5px;
+}
+
+.brake-btn {
+  outline: none;
+  cursor: pointer;
+  color: #94a3b8;
+  background-color: transparent;
+  height: 30px;
+  width: 100px;
+  border: solid 2px #94a3b8;
+  margin-left: 10px;
+
+  border-radius: 5px;
+}
